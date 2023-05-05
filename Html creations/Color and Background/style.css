@@ -1,0 +1,24 @@
+body{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading1{
+    background-color:rgb(171, 171, 205);
+}
+.heading2{
+    background-color:hsl(60, 100%, 68%);
+}
+.heading3{
+    background-color:hsl(259, 10%, 33%);
+}
+.heading4{
+    background-color: hsl(181, 52%, 49%);
+}
+.heading5{
+    background-color:hsl(210,63%,50%);
+}
+.heading6{
+    background-color:rgba(47, 128, 208,0.5);
+}

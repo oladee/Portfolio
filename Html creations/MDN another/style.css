@@ -1,0 +1,40 @@
+div h2{
+    font-weight: 500;
+}
+div h1{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btn :hover{
+   color: black;
+}
+#email{
+    border: 0px;
+}
+#password{
+    border: 0px;
+}
+#btn{
+    padding: 0.8em 3em ;
+    color: white;
+    background-color: darkcyan; 
+    outline: none;
+    border: none;
+}
+div a{
+    color: black;
+}
+#bttn{
+    padding: 0.8em 3em;
+    color: white;
+    
+    background-color: rgb(120, 192, 59);
+    border: none;
+    border-radius: 15px;
+}
+#bttn a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}

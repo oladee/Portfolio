@@ -1,0 +1,6 @@
+form ul{
+    list-style: none;
+}
+form ul li{
+    display: inline-block;
+}

@@ -1,0 +1,392 @@
+.crazy{
+    background-color: hsl(218, 28%, 13%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+.logo{
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 20%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.otherElements{
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+    align-items: center;
+    color: whitesmoke;
+}
+h1{
+    color: white;
+}
+.otherElements a{
+    color: whitesmoke;
+    text-decoration:solid white
+}
+.us > a{
+    color: whitesmoke;
+    text-decoration:solid white
+}
+.otherElements h6{
+    color: white;
+    font-size: 1.22em;
+    font-weight: 100;
+}
+p{
+    color: white;
+    line-height: 3.8vw;
+    font-size: 2.5vw;
+}
+.tag{
+    font-weight: lighter;
+}
+.words{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.moreInfo{
+    box-sizing: border-box;
+    padding: 3rem;
+}
+.firstImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filesContent{
+    text-align: center;
+}
+.button{
+    padding: 1.1rem 5.5rem;
+    border-radius: 1.8rem;
+    background-color: #62E0D9;
+    color: white;
+}
+.information1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.accessAnywhere{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.Security{
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+.information2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.realTime{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.storeFile{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.notesection{
+    color: white;
+    width: 100%;
+  
+}
+.productiveImage{
+    width: 100%;
+}
+.productive{
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.theImage{
+    position: relative;
+    left: 2em;
+}
+.commentSection{
+    padding: em 0rem 0rem 0em;
+    padding-bottom: 15em;
+    box-sizing: border-box;
+    position: relative;
+}
+.commenting{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    left: 4px;
+    top:-35px;
+    justify-content: center;
+}
+.comment1{
+    padding: 1.5rem 0rem 1.5rem 2rem;
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 1.25em;
+    width: 75%;
+}
+.imageNameStatus{
+    display: flex;
+    align-items: center;
+}
+.nameStatus{
+    padding-left: 0.5em;
+    padding-top: 0.625em;
+}
+h4{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.ceo{
+    margin-top: 0px;
+}
+.earlyAccess{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: hsl(217, 28%, 15%);
+    padding: 1.5em 0.15em ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    position: relative;
+    top: -10em;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Email{
+    padding: 1em 3.5em;
+    border-radius: 1.5em;
+    margin-bottom: 1.25em;
+    position: relative;
+}
+#pressing{
+    padding: 1em 5.5em;
+    border-radius: 1.5em;
+    margin-bottom: 1.25em;
+    background-color:  hsl(198, 60%, 50%);
+    color: white;
+}
+footer{
+
+    color: whitesmoke;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: hsl(190, 25%, 9%);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+footer p{
+    margin-bottom: 0;
+}
+.us{
+    margin-bottom: 3.5em;
+    padding-top: 1.5em;
+}
+.us p{
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+.contact p{
+    margin-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.Elclassico p{
+    line-height: 1.6em;
+    font-size: 1.05em;
+}
+@media(min-width: 1024px){
+    .otherElements{
+        width: 22em;
+    }
+    .logo{
+        width: 10%;
+    }
+    .navigation h1, h3{
+        font-size: 1.5em;
+    }
+    .words{
+        font-size: 1.9em;
+        font-weight: 600;
+        line-height: 1em;
+    }
+    .button{
+        padding: 0.7em 1.8em;
+        font-weight: 900;
+        font-size: 1em;
+    }
+    .tag{
+        font-size: 1.9em;
+        line-height: 0.8em;
+    }
+    .information h2{
+        font-size: 1.8em;
+    }
+    .information1{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+    }
+    .information2{
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+
+    }
+    .accessAnywhere{
+        text-align: center;
+        color: white;
+        width: 50%;
+    }
+    .Security{
+        text-align: center;
+        color: white;
+        width: 50%;
+    
+    }
+    p{
+        color: white;
+        line-height: 0.8vw;
+        font-size: 1.8vw;
+        font-weight: lighter;
+    }
+    .notesection{
+        color: white;
+        width: 50%;
+        padding: 3.5rem 0rem 0rem 5rem;
+        box-sizing: border-box;
+      
+    }
+    .notesection h2{
+        font-size: 3.3em;
+    }
+    .notesection h5{
+        font-size: 1em;
+    }
+    .notesection img{
+        width: 1em;
+    }
+    .notesection p{
+        font-size: 1.3em;
+    }
+    .productiveImage{
+        width: 50%;
+    }
+    .productive{
+        padding: 2rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+    }
+    .imageView{
+        display: block;
+        width: 5em;
+    }
+    .product{
+        font-size: 1.3em;
+        line-height: 1.3em;
+        font-weight: 100;
+    }
+    .theImage{
+        position: relative;
+        left: -0.5em;
+    }
+    .commenting{
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+    
+    }
+    .commentSection{
+        padding: 5rem 4rem 0rem;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        padding-bottom: 15em;
+    }
+    .comment1{
+        width: 100%;
+        margin-right: 1.5625em;
+        padding-left: 1.25em;
+    }
+    .com{
+        font-size: 0.75em;
+        line-height: 1rem;
+    }
+    .ceo{
+        font-size: 0.625em;
+    }
+    .CEO{
+        font-size: 0.75em;
+    }
+    .pic{
+        width: 1.5625em;
+    }
+    .formAndButton{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .earlyAccess{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -6.5em;
+    }
+    #Email{
+        padding: 0.4em 1.5em;
+        border-radius: 1.5625em;
+        margin-right: 1.5625em;
+        font-weight:bold;
+        outline: none;
+    }
+    #pressing{
+        padding: 0.5em 1.0em;
+        border-radius: 1.25em;
+        background-color:  hsl(198, 60%, 50%);
+        color: white;
+        outline: none;
+    }
+    .Elclassico{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .devin{
+        width: 45%;
+    }
+    .devin1{
+        padding: 0rem 2em;
+    }
+    .us, .contact{
+        padding: 1.5em 2em;
+    }
+}

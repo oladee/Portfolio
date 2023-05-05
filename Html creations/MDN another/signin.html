@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: azure; padding-top: 2em;">
+    <section style="min-height: 350px; background-color: whitesmoke; width: 400px; min-height: 300px; margin: auto; padding: 2em;box-shadow: 0px 10px 20px rgba(80, 2, 0, 0.04)">
+        <div style="display: flex;" >
+            <div class="imgSection" width="70%" height="100%" style="padding-bottom: 1.5em;">
+                <img src="illustration-intro.png" alt="" width="100%" style="height: 220px;">
+            </div>
+            <div>
+                <h1>Sign In</h1>
+                <form action="">
+                    <div style="display: flex; padding-bottom: 0.5em;">
+                        <img src="user.svg" alt="" width="10px" style="padding-bottom: 5px; border-bottom: 1px solid black;padding-right: 3px;">
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" style="padding-bottom: 5px; border-bottom: 1px solid black;outline:none
+                        ;">
+                    </div>
+                    <div style="display: flex; padding-bottom: 0.5em;">
+                        <img src="lock.svg" alt="" width="10px"style="padding-bottom: 5px; border-bottom: 1px solid black;padding-right: 3px;">
+                        <input style="padding-bottom: 5px; border-bottom: 1px solid black;outline: none;"type="password" name="password" id="password" placeholder="Password" pattern="" required>
+                        
+                    </div>
+                    <div style="padding-bottom: 0.5em;">
+                        <input type="checkbox" name="Remember" id="Remember">
+                        <label for="Remember me">Remember me</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Log in" id="btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div>
+                <a href="index.html">Create an account</a>
+            </div>
+            <div style="display: flex; justify-content: space-between; width: 40%;">
+                <a href="">Or login with</a>  
+                <a href=""><img src="facebook-square.svg" alt="" width="20px"></a>
+                <a href=""><img src="twitter-square.svg" alt="" width="20px"></a>
+                <a href=""><img src="google-plus-square.svg" alt="" width="20px"></a>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>

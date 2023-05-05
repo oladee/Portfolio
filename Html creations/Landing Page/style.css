@@ -1,0 +1,296 @@
+
+body{
+    background-color: rgb(254, 255, 255);
+}
+.navbar{
+    width: 100%;
+    padding: 0.225rem 3.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow:  0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    background-color: #FEFFFF;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.log-in{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+.headline{
+    font-style: normal;
+    color: #3958A7;
+    font-family: 'DM Sans';
+    font-weight: bold;
+}
+.Sign-in{
+    background-color: #3958A7;
+    padding: 0.4rem 1.2rem;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+.Find-help{
+    padding: 0.4rem 1.2rem;
+    border: 1px solid #0134B7;
+    color: rgba(51, 51, 51, 0.4);
+
+}
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+.participation{
+    width: 100%;
+
+}
+.DP{
+    padding-top: 2rem;
+    width: 100%;
+    padding-right: 3rem;
+    display: none;
+}
+.text1{
+    font-size: 64px;
+}
+.text2{
+    font-size: 25.4961px;
+}
+.thank-you{
+    padding: 1rem 7rem 1rem 1.5rem;
+    background-color:rgba(1,52,183,0.72);
+    color: #F9F9F9;
+}
+#Senator{
+    background-color: #EAE1100F;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 1.5rem 8rem 1.5rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+.group-photo{
+    width: 100%;
+}
+.comment{
+    width: 100%;
+   
+}
+p{
+    color: rgba(0, 0, 0, 0.65);
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size:25.4961px;
+}
+.sm1{
+    margin-top: 0px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.sm{
+    font-size: 6px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.Tokunbo{
+    margin-bottom: 0px;
+    color: #2752BF;
+}
+#information{
+    background-color: #F9F9F9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1600px;
+    left: 120px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.commentSection{
+    display: flex;
+    align-items: center;
+}
+#phoneNumber{
+    display: flex;
+    align-items: center;
+}
+#mailUs{
+    display: flex;
+    align-items: center;
+}
+#address{
+    display: flex;
+    align-items: center;
+}
+.addressIcon{
+    padding-right: 0.55rem;
+}
+.mailIcon{
+    padding-right: 0.55rem;
+}
+#phoneIcon{
+    padding-right: 0.55rem;
+}
+#conclusion{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+#conclusion1{
+    width: 100%;
+    padding: 10rem 4rem 4rem 4rem;
+}
+.greene{
+    color: #00A347;
+}
+#conclusion2{
+    width: 100%;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+}
+#conclusion3{
+    width: 100%;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+}
+.part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.socialIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+@media (min-width: 1024px) {
+    .log-in{
+        width: 35%;
+    }
+    .headline{
+        font-style: normal;
+        color: #3958A7;
+        font-family: 'DM Sans';
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .introduction{
+        flex-wrap: nowrap;
+        padding: 5rem;
+    }
+    .participation{
+        width: 70%;
+        padding: 0rem 8rem 0rem 0rem;
+    
+    }
+    .DP{
+        width: 30%;
+        padding-left: 4rem;
+        display: block;
+    }
+    .Sign-in{
+        padding: 0.4rem 2rem;
+    }
+    #Senator{
+        background-color: #EAE1100F;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 5rem;
+        align-items: center;
+    }
+    .group-photo{
+        width: 50%;
+    }
+    .comment{
+        width: 50%;
+        padding: 5rem;
+    }
+    .sm1{
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .sm{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    #information{
+        background-color: #F9F9F9;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+        display: flex;
+        width: 65%;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 1850px;
+        left: 300px;
+        padding: 2rem;
+    }    
+    #conclusion{
+            display: flex;
+            width: 100%;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+    }
+    #conclusion1{
+        width: 100%;
+        padding: 11rem 4rem ;
+    }
+
+}
+@media (min-width: 1145px){
+    #information{
+        background-color: #F9F9F9;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+        display: flex;
+        width: 65%;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 1720px;
+        left: 300px;
+        padding: 2rem;
+    }    
+}
+@media (min-width: 1220px){
+    #information{
+        background-color: #F9F9F9;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+        display: flex;
+        width: 65%;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 1600px;
+        left: 300px;
+        padding: 2rem;
+    }    
+}
+@media (min-width: 1337px){
+        #information{
+            background-color: #F9F9F9;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+            display: flex;
+            width: 65%;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 1580px;
+            left: 300px;
+            padding: 2rem;
+        }    
+}
