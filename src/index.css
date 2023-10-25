@@ -9,4 +9,8 @@
 }
 body{
     background-color: #191919;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    font-family:  'DM Sans', sans-serif;
 }
