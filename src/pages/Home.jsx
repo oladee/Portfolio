@@ -17,12 +17,12 @@ const Home = () => {
       </section>
       <section className="">
         <div className="flex flex-col justify-center items-center">
-        <h3 className="text-5xl font-bold">My Tech Stack</h3>
-        <p className="text-2xl">Technologies I've been Working with recently</p>
+        <h3 className="text-3xl md:text-5xl font-bold">My Tech Stack</h3>
+        <p className="md:text-2xl">Technologies I've been Working with recently</p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex ml-6 lg:ml-0">
         <div className="flex gap-20 flex-wrap">
-          {stack.map(x => <img key={x.type} src={x.type} className="w-32"/>)}
+          {stack.map(x => <img key={x.type} src={x.type} className="lg:w-32 w-24"/>)}
         </div>
         </div>
       </section>
