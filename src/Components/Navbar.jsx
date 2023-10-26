@@ -10,7 +10,7 @@ const Navbar = (props) => {
         <header>
           <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-4xl font-extrabold'>&#10627;Oladee&#10628;</h1>
         </header>
-        <nav className='flex gap-12 mr-28'>
+        <nav className='hidden lg:flex gap-12 mr-28'>
           <ul className='flex gap-7 text-xl'>
             <NavLink>Home</NavLink>
             <NavLink>About</NavLink>

@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 const App = ()=> {
   const [lightmode, setLightMode] = useState(false)
   return (
-    <div className="text-[#A7A7A7] mx-14">
+    <div className="text-[#A7A7A7] md:mx-14 mx-6">
       <Navbar/>
       <Home/>
     </div>
