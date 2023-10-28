@@ -20,9 +20,9 @@ const Home = () => {
             <br /> I build things for the web
           </h2>
         </article>
-        <div className="border rounded-[50%] bg-gradient-to-b from-pink-500 to-blue-500 p-1">
+        <div className="run rounded-[50%] bg-gradient-to-b from-pink-500 to-blue-500 p-1">
           <img
-            className="w-[200px] h-[200px] lg:h-[350px] lg:w-[350px] object-cover rounded-[50%]"
+            className="w-[200px] h-[200px] lg:h-[350px] lg:w-[350px] object-cover rounded-[50%] "
             src={displaypic}
             alt="displaypic"
           />
@@ -57,6 +57,7 @@ const Home = () => {
               title={x.title}
               description={x.description}
               codeStack={x.codeStack}
+              preview={x.preview}
             />
           ))}
         </div>
@@ -70,14 +71,14 @@ Home.propTypes = {
 };
 export default Home;
 
-export const Card = ({ image, title, description, codeStack }) => {
+export const Card = ({ image, title, description, codeStack,preview }) => {
   return (
-    <div className="cursor-pointer hover:">
+    <div className="cursor-pointer hover:shadow-lg hover:scale-90 duration-300">
       <div className=" h-[390px] w-[250px] bg-[#363636] rounded-2xl">
       <div className="h-[35%]">
         <img
           src={image}
-          alt=""
+          alt={title}
           className="h-full w-full object-cover rounded-t-2xl"
         />
       </div>
@@ -88,13 +89,17 @@ export const Card = ({ image, title, description, codeStack }) => {
           Tech stack : <span className="text-xs">{codeStack}</span>
         </p>
         <div className="flex justify-between">
-          <Link className="flex items-center">
+          <Link to={preview} target="blank" className="link" >
+            <div className="flex items-center bg-[#363636] ">
             <img src={previewIcon} alt="" />{" "}
-            <span className="text-sm">Live Preview</span>{" "}
+            <span className=" text-sm">Live Preview</span>{" "}
+            </div>
           </Link>
-          <Link className="flex items-center gap-1">
+          <Link className="link">
+            <div className="flex items-center gap-1 hover:text-black">
             <img src={gitIcon} alt="" className="w-5" />{" "}
             <span className="text-sm">View Code</span>{" "}
+            </div>
           </Link>
         </div>
       </div>
@@ -108,4 +113,5 @@ Card.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   codeStack: PropTypes.string,
+  preview: PropTypes.string
 };
