@@ -31,15 +31,16 @@ const Home = () => {
       <section className="mb-20">
         <div className="flex flex-col justify-center items-center">
           <h3 className="text-3xl md:text-5xl font-bold pb-3">My Tech Stack</h3>
-          <p className="md:text-2xl pb-16">
+          <p className="md:text-2xl pb-16 text-sm">
             Technologies I&apos;ve been Working with recently
           </p>
         </div>
-        <div className="flex ml-[15%] lg:ml-0">
-          <div className="flex gap-20 flex-wrap">
-            {stack.map((x) => (
+        <div className="flex ml-[10%] lg:ml-0">
+          <div className="flex gap-20 flex-wrap md:grid md:place-content-center md:w-full md:grid-cols-[repeat(4,auto)]">
+            {stack.map((x) => {
+              return (
               <img key={x.type} src={x.type} className="lg:w-32 w-24" />
-            ))}
+            )})}
           </div>
         </div>
       </section>
@@ -48,7 +49,7 @@ const Home = () => {
           <h3 className="text-3xl md:text-5xl font-bold pb-3">Projects</h3>
           <p className="md:text-2xl pb-16">Things I&apos;ve built so far</p>
         </div>
-        <div className=" flex flex-nowrap overflow-x-auto gap-[15px]">
+        <div className=" flex flex-nowrap overflow-x-auto gap-[25px] md:grid md:place-content-center md:w-full md:grid-cols-[repeat(4,auto)]">
           {data.map((x) => (
             <Card
               key={x.title}
@@ -71,7 +72,7 @@ export default Home;
 
 export const Card = ({ image, title, description, codeStack }) => {
   return (
-    <div>
+    <div className="cursor-pointer hover:">
       <div className=" h-[390px] w-[250px] bg-[#363636] rounded-2xl">
       <div className="h-[35%]">
         <img

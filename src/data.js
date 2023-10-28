@@ -24,18 +24,17 @@ export const data = [
         preview: 'https://hngxstage2.netlify.app/',
         
         viewCode: ''
-    }
+    },
     {
-        title: "Moviebox App",
+        title: "MetaBnB App",
 
-        image: "assets/Moviebox.png",
+        image: "assets/Metabnb.png",
 
         description: 'This is a movie site where users can interact by searching for movies, adding favourites and also get details about the movie by clicking on the associated cards.',
 
         codeStack: 'Reactjs, Tailwindcss, ',
 
         preview: 'https://hngxstage2.netlify.app/',
-        
         viewCode: ''
     }
 
