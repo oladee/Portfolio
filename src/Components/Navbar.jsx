@@ -6,7 +6,7 @@ import linkedinIcon from '../assets/entypo-social_linkedin-with-circle.svg'
 const Navbar = (props) => {
   
   return (
-    <div className='flex items-center justify-between my-6'>
+    <div className='flex items-center justify-between my-6 h-[5vh]'>
         <header>
           <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-4xl font-extrabold'>&#10627;Oladee&#10628;</h1>
         </header>
