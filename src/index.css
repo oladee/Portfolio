@@ -37,3 +37,23 @@ nav ul{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+@keyframes glowingg {
+    0% { background-position: 0 0; }
+    50% { background-position: 4000% 0; }
+    100% { background-position: 0 0; }
+}
+
+.hands {
+    animation: shaky 1s infinite;
+}
+
+@keyframes shaky {
+    50% {transform: rotate(50deg);}
+}
+
+ul a:hover{
+    background: linear-gradient(90deg,  #13B0F5 -2.06%, #E70FAA 100%);
+    background-clip: text;
+    color: transparent;
+    animation: glowingg 0.5s infinite;
+}

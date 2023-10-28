@@ -12,7 +12,7 @@ const Home = () => {
       <section className="flex justify-center flex-wrap flex-1 items-center h-[95vh]">
         <article className="lg:w-[65%]  ">
           <h2 className="text-4xl md:text-6xl text-left text-[#D9D9D9] font-bold pr-20 md:leading-[60px]">
-            Hi <span>👋</span>,<br /> My name is
+            Hi <div className="hands inline-block"><span >👋</span></div>,<br /> My name is
             <br />{" "}
             <span className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">
               MOMOH OLADIMEJI
@@ -39,7 +39,7 @@ const Home = () => {
           <div className="flex gap-20 flex-wrap md:grid md:place-content-center md:w-full md:grid-cols-[repeat(4,auto)]">
             {stack.map((x) => {
               return (
-              <img key={x.type} src={x.type} className="lg:w-32 w-24" />
+              <img key={x.type} src={x.type} className="lg:w-28 w-20" />
             )})}
           </div>
         </div>
@@ -58,6 +58,7 @@ const Home = () => {
               description={x.description}
               codeStack={x.codeStack}
               preview={x.preview}
+              viewCode={x.viewCode}
             />
           ))}
         </div>
@@ -71,7 +72,7 @@ Home.propTypes = {
 };
 export default Home;
 
-export const Card = ({ image, title, description, codeStack,preview }) => {
+export const Card = ({ image, title, description, codeStack,preview, viewCode }) => {
   return (
     <div className="cursor-pointer hover:shadow-lg hover:scale-90 duration-300">
       <div className=" h-[390px] w-[250px] bg-[#363636] rounded-2xl">
@@ -95,7 +96,7 @@ export const Card = ({ image, title, description, codeStack,preview }) => {
             <span className=" text-sm">Live Preview</span>{" "}
             </div>
           </Link>
-          <Link className="link">
+          <Link to={viewCode} className="link">
             <div className="flex items-center gap-1 hover:text-black">
             <img src={gitIcon} alt="" className="w-5" />{" "}
             <span className="text-sm">View Code</span>{" "}
@@ -113,5 +114,6 @@ Card.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   codeStack: PropTypes.string,
-  preview: PropTypes.string
+  preview: PropTypes.string,
+  viewCode : PropTypes.string
 };

@@ -1,5 +1,18 @@
 export const data = [
     {
+        title: "Todo App",
+
+        image: "assets/Todo.png",
+
+        description: 'Users will be able to View the optimal layout for the app depending on their devices screen size See hover states for all interactive elements on the page Add new todos to the list Mark todos as complete Delete todos from the list Filter by all/active/complete todo Toggle light and dark mode',
+
+        codeStack: 'Reactjs,Local Storage Api, Tailwindcss',
+
+        preview: 'https://wiztodo.netlify.app/',
+
+        viewCode: 'https://github.com/latiniuxs/To-do'
+    },
+    {
         title: "Image Gallery App",
 
         image: "assets/Capture.png",
@@ -10,7 +23,7 @@ export const data = [
 
         preview: 'https://image-dnd.netlify.app/',
 
-        viewCode: ''
+        viewCode: 'https://github.com/oladee/Image-Gallery-Drag-and-Drop'
     },
     {
         title: "Moviebox App",
@@ -23,7 +36,7 @@ export const data = [
 
         preview: 'https://hngxstage2.netlify.app/',
         
-        viewCode: ''
+        viewCode: 'https://github.com/oladee/HNGxStage2'
     },
     {
         title: "MetaBnB App",
@@ -35,7 +48,7 @@ export const data = [
         codeStack: 'Reactjs, Tailwindcss, ',
 
         preview: 'https://hngxstage2.netlify.app/',
-        viewCode: ''
+        viewCode: 'https://github.com/oladee/MetaBnB'
     }
 
 ]
