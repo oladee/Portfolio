@@ -28,7 +28,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <section className="mb-20">
+      <section className="mb-20" id="techStack">
         <div className="flex flex-col justify-center items-center">
           <h3 className="text-3xl md:text-5xl font-bold pb-3">My Tech Stack</h3>
           <p className="md:text-2xl pb-16 text-sm">
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="projects">
         <div className="flex flex-col justify-center items-center">
           <h3 className="text-3xl md:text-5xl font-bold pb-3">Projects</h3>
           <p className="md:text-2xl pb-16">Things I&apos;ve built so far</p>

@@ -1,9 +1,8 @@
-import PropTypes from 'prop-types'
 import { NavLink } from 'react-router-dom'
 import githubIcon from '../assets/akar-icons_github-fill.svg'
 import twitterIcon from '../assets/ant-design_twitter-circle-filled.svg'
 import linkedinIcon from '../assets/entypo-social_linkedin-with-circle.svg'
-const Navbar = (props) => {
+const Navbar = () => {
   
   return (
     <div className='flex items-center justify-between my-6 h-[5vh]'>
@@ -14,8 +13,20 @@ const Navbar = (props) => {
           <ul className='flex gap-7 text-xl'>
             <NavLink>Home</NavLink>
             <NavLink>About</NavLink>
-            <NavLink>Tech Stack</NavLink>
-            <NavLink>Projects</NavLink>
+            <NavLink onClick={(e)=>{
+            e.preventDefault()
+            window.scrollTo({
+              top: document.querySelector('#techStack').offsetTop,
+              behavior: 'smooth'
+            })
+          }}>Tech Stack</NavLink>
+            <NavLink onClick={(e)=>{
+            e.preventDefault()
+            window.scrollTo({
+              top: document.querySelector('#projects').offsetTop,
+              behavior: 'smooth'
+            })
+          }}>Projects</NavLink>
             <NavLink>Contact</NavLink>
           </ul>
           <div className='flex gap-4 '>

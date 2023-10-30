@@ -12,27 +12,16 @@ export const stack = [
         type: "assets/logos_react.svg"
     },
     {
-        type: "assets/cib_greensock.svg"
+        type: "assets/wordpress.svg"
     },
     {
         type: "assets/logos_bootstrap.png"
     },
     {
-        type: "assets/logos_sass.svg"
+        type: "assets/tailwind.svg"
     },
     {
-        type: "assets/vscode-icons_file-type-js-official.svg"
+        type: "assets/nodejs.svg"
     },
-    {
-        type: "assets/logos_react.svg"
-    },
-    {
-        type: "assets/cib_greensock.svg"
-    },
-    {
-        type: "assets/logos_bootstrap.png"
-    },
-    {
-        type: "assets/logos_sass.svg"
-    }
+    
 ]
