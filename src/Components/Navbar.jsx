@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import githubIcon from '../assets/akar-icons_github-fill.svg'
+import githubIcon from '../assets/Vector.svg'
 import twitterIcon from '../assets/ant-design_twitter-circle-filled.svg'
 import linkedinIcon from '../assets/entypo-social_linkedin-with-circle.svg'
 const Navbar = () => {
