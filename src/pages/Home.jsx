@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mb-20">
       <section className="flex justify-center flex-wrap flex-1 items-center h-[95vh]">
         <article className="lg:w-[65%]  ">
           <h2 className="text-4xl md:text-6xl text-left text-[#D9D9D9] font-bold pr-20 md:leading-[60px]">
