@@ -29,8 +29,8 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-2 opacity-30" />
-      <section>
-        <div className="">
+      <section className="md:flex justify-between mt-4 ">
+        <div className="md:flex gap-6" >
             <div><Link className="">Home</Link></div>
             <div><Link>About</Link></div>
             <div><Link>Technologies</Link></div>
@@ -38,7 +38,7 @@ const Footer = () => {
             <div><Link>Contacts</Link></div>
         </div>
         <div>
-        <p className="text-sm">Designed and built by <span>Oladimeji</span>with 🧡</p>
+        <p className="text-sm">Designed and built by <span>Oladimeji</span> with 🧡</p>
         
         </div>
       </section>
