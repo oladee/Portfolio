@@ -31,14 +31,14 @@ const Footer = () => {
       <hr className="border-2 opacity-30" />
       <section>
         <div className="">
-            <Link className="">Home</Link>
-            <Link>About</Link>
-            <Link>Technologies</Link>
-            <Link>Projects</Link>
-            <Link>Contacts</Link>
+            <div><Link className="">Home</Link></div>
+            <div><Link>About</Link></div>
+            <div><Link>Technologies</Link></div>
+            <div><Link>Projects</Link></div>
+            <div><Link>Contacts</Link></div>
         </div>
         <div>
-        <p>Designed and built by <span>Pavan MG</span>with <span>Love</span> & <span>Coffee</span></p>
+        <p className="text-sm">Designed and built by <span>Oladimeji</span>with 🧡</p>
         
         </div>
       </section>
