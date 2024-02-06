@@ -93,7 +93,7 @@ export const Card = ({ image, title, description, codeStack,preview, viewCode })
           <Link to={preview} target="blank" className="link" >
             <div className="flex items-center bg-[#363636] ">
             <img src={previewIcon} alt="" />{" "}
-            <span className=" text-sm">Live Preview</span>{" "}
+            <span className=" text-sm hover:text-white">Live Preview</span>{" "}
             </div>
           </Link>
           <Link to={viewCode} className="link">

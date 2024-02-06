@@ -1,5 +1,18 @@
 export const data = [
     {
+        title: "Farmfortify",
+
+        image: "assets/farmfortify.png",
+
+        description: 'This product is an agriculture website tailored to meet the needs of farmers and individuals interested in agriculture. It offers features and resources to support their agricultural journey.',
+
+        codeStack: 'Reactjs, Tailwindcss',
+
+        preview: 'https://farmfortify.com/',
+
+        viewCode: 'https://github.com/oladee/FarmFortify'
+    },
+    {
         title: "Todo App",
 
         image: "assets/Todo.png",
@@ -8,9 +21,9 @@ export const data = [
 
         codeStack: 'Reactjs,Local Storage Api, Tailwindcss',
 
-        preview: 'https://wiztodo.netlify.app/',
+        preview: 'https://mantask.web.app/',
 
-        viewCode: 'https://github.com/latiniuxs/To-do'
+        viewCode: 'https://github.com/oladee/Task-Management'
     },
     {
         title: "Image Gallery App",
@@ -43,11 +56,11 @@ export const data = [
 
         image: "assets/Metabnb.png",
 
-        description: 'This is a movie site where users can interact by searching for movies, adding favourites and also get details about the movie by clicking on the associated cards.',
+        description: 'This website is a mirror version of a web 3 application buitl using web 2 technology.',
 
         codeStack: 'Reactjs, Tailwindcss, ',
 
-        preview: 'https://hngxstage2.netlify.app/',
+        preview: 'https://oladee.github.io/MetaBnB/',
         viewCode: 'https://github.com/oladee/MetaBnB'
     }
 
