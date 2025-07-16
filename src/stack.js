@@ -1,9 +1,6 @@
 export const stack = [
     {
-        type: "assets/vscode-icons_file-type-html.svg"
-    },
-    {
-        type: "assets/vscode-icons_file-type-css.svg"
+        type: "assets/next.png"
     },
     {
         type: "assets/vscode-icons_file-type-js-official.svg"

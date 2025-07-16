@@ -1,5 +1,31 @@
 export const data = [
     {
+        title: "Syncall Music",
+
+        image: "assets/syncall.png",
+
+        description: 'SyncAll is at the forefront of music licensing technology, offering advanced features that simplify and streamline the process of finding and licensing African music. The platform continuously evolves to incorporate new tools and approaches, ensuring users have access to state-of-the-art functionality.',
+
+        codeStack: 'React.js, Express.js',
+
+        preview: 'https://www.syncallmusic.com/',
+
+        viewCode: 'https://github.com/sync-All/SyncAllFE'
+    },
+    {
+        title: "Techdicto",
+
+        image: "assets/Techdicto.png",
+
+        description: 'Techdicto is an educational product aimed at helping its users learn and also offering mentorship at its best',
+
+        codeStack: 'Next.js, Nest.js',
+
+        preview: 'https://techdicto-lmkz.vercel.app/',
+
+        viewCode: 'https://github.com/oladee/techdicto'
+    },
+    {
         title: "Farmfortify",
 
         image: "assets/farmfortify.png",
